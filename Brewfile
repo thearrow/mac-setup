@@ -13,6 +13,7 @@ brew 'grep'
 brew 'openssh'
 
 brew 'python'
+brew 'ruby'
 brew 'git'
 brew 'git-lfs'
 brew 'git-flow'
