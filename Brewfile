@@ -25,6 +25,7 @@ brew 'awscli'
 brew 'terraform'
 brew 'packer'
 brew 'yarn'
+brew 'flow'
 
 cask 'google-chrome'
 cask 'firefox'
