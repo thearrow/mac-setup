@@ -14,6 +14,7 @@ brew bundle
 # generate new ssh key
 ssh-keygen -t rsa -b 4096
 
-# install python formatting tools
+# install python linting/formatting tools
 pip install pep8
-pip install --upgrade autopep8
+pip install yapf
+pip install flake8
