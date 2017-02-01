@@ -14,6 +14,7 @@ brew 'openssh'
 
 brew 'python'
 brew 'ruby'
+brew 'htop'
 brew 'git'
 brew 'git-lfs'
 brew 'git-flow'
