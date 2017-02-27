@@ -8,6 +8,9 @@ brew upgrade --all
 # install homebrew-bundle
 brew tap Homebrew/bundle
 
+# install https://github.com/buo/homebrew-cask-upgrade
+brew tap buo/cask-upgrade
+
 # install all dependencies in Brewfile
 brew bundle
 
