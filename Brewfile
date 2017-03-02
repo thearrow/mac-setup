@@ -27,6 +27,7 @@ brew 'terraform'
 brew 'packer'
 brew 'yarn'
 brew 'flow'
+brew 'nmap'
 
 cask 'google-chrome'
 cask 'firefox'
