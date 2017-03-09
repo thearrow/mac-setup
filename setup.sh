@@ -14,10 +14,16 @@ brew tap buo/cask-upgrade
 # install all dependencies in Brewfile
 brew bundle
 
-# generate new ssh key
-ssh-keygen -t rsa -b 4096
-
 # install python linting/formatting tools
 pip install pep8
 pip install yapf
 pip install flake8
+
+# install https://github.com/robbyrussell/oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+ln -s .zshrc ~/.zshrc
+source ~/.zshrc
+
+# generate new ssh key
+# ssh-keygen -t rsa -b 4096
