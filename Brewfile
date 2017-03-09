@@ -18,6 +18,7 @@ brew 'git'
 brew 'git-lfs'
 brew 'git-flow'
 brew 'git-extras'
+brew 'stormssh'
 
 brew 'python'
 brew 'ruby'

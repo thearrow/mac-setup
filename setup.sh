@@ -27,3 +27,11 @@ source ~/.zshrc
 
 # generate new ssh key
 # ssh-keygen -t rsa -b 4096
+
+# ~/.ssh/config
+# Host *
+#   UseKeychain yes
+#   AddKeysToAgent yes
+#   IdentityFile ~/.ssh/id_rsa
+#   ServerAliveInterval 20
+#   ServerAliveCountMax 3
