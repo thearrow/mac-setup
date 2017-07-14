@@ -20,6 +20,7 @@ brew 'rename'
 brew 'stormssh'
 brew 'tree'
 brew 'wget'
+brew 'zsh-syntax-highlighting'
 
 brew 'awscli'
 brew 'flow'

@@ -12,10 +12,10 @@ plugins=(git autojump brew npm yarn pip osx vagrant docker docker-compose aws te
 
 # PATH configuration
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin"
+export GOPATH="$HOME/Development/go"
 export PATH="$PATH:$GOPATH/bin"
 export PATH="$PATH:$HOME/.rbenv/bin"
 export PATH="$PATH:$(brew --prefix coreutils)/libexec/gnubin"
-export GOPATH="$HOME/Development/go"
 export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
 export WORKON_HOME=$HOME/Development/.virtualenvs
 export PROJECT_HOME=$HOME/Development
@@ -23,6 +23,7 @@ export EDITOR=code
 
 source $ZSH/oh-my-zsh.sh
 source /Users/Jake/.iterm2_shell_integration.zsh
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # ALIASES
 alias zconf="$EDITOR ~/.zshrc"
